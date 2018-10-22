@@ -1,0 +1,152 @@
+body {
+    font-family: "Rubik", sans-serif;
+    background-color: rgb(241, 241, 241);
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*** Header ***/
+#header-info{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.photo-holder{
+    background: rgb(226, 228, 227);
+    text-align: center;
+}
+
+.photo-holder img {
+    width: 90%;
+    margin: 40px 0 20px 0;
+}
+
+.hr {
+    border-top: 1px solid #ccc;
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    margin: 0.6em 0;
+}
+
+#resume {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    letter-spacing: 0.2em;
+}
+
+#name {
+    font-size: 4em;
+    text-transform: uppercase;
+    letter-spacing: 0.001em;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+.summary {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #666;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+#intro {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+/*** Content ***/
+#content {
+    margin: 20px 0;
+}
+
+.content-section {
+    margin: 10px 0;
+}
+
+.content-section-header {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.experience-event {
+    margin-bottom: 20px;
+}
+
+.event-description{
+    font-size: 14px;
+}
+
+.content-section-sub-header {
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-top: -8px;
+}
+
+.date {
+    font-weight: 600;
+}
+/*** Footer ***/
+.footer-section{
+    margin-bottom: 30px;
+}
+
+.section-header {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+/*** Skills ***/
+.progress {
+    height: 12px;
+}
+
+.skill {
+    display:flex;
+    align-items:center;
+}
+
+.skill-name {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/*** Statement ***/
+.statement-content{
+    text-align: justify;
+    font-size: 12px;
+    font-style: italic;
+}
+
+/*** SM **/
+.sm-link {
+    text-decoration: none;
+    color: #212529;
+    font-size: 12px;
+    transition: all 0.5s ease;
+}
+
+.sm-link:hover {
+    text-decoration: none;
+}
+
+/*** Bootstrap extensions ***/
+.bg-dark-grey{
+    background-color: #888;
+}
