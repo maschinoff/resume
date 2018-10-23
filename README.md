@@ -1,7 +1,7 @@
 # Résumé
 My very own personal website. Basically this is just a résumé.
 
-You can view this site at <https://xeniatereshka.github.io/resume/>.
+You can view this site at <https://maschin.github.io/resume/>.
  
 I created this project for the online up to date resume. It is hosted by [GitHub Pages](https://pages.github.com/).
 
