@@ -44,7 +44,7 @@ hr {
 }
 
 #name {
-    font-size: 4em;
+    font-size: 3.3em;
     text-transform: uppercase;
     letter-spacing: 0.001em;
     font-weight: 600;
@@ -97,6 +97,7 @@ hr {
 
 .date {
     font-weight: 600;
+    font-size: 15px;
 }
 /*** Footer ***/
 .footer-section{
