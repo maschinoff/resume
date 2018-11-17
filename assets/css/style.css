@@ -28,6 +28,10 @@ hr {
     margin: 40px 0 20px 0;
 }
 
+#content.pull-top {
+    margin-top: -57px;
+}
+
 .hr {
     border-top: 1px solid #ccc;
     position: absolute;
