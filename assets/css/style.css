@@ -12,6 +12,16 @@ hr {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #666;
+    transition: all 0.5s ease;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 /*** Header ***/
 #header-info{
     margin-top: 40px;
@@ -26,10 +36,6 @@ hr {
 .photo-holder img {
     width: 90%;
     margin: 40px 0 20px 0;
-}
-
-#content.pull-top {
-    margin-top: -57px;
 }
 
 .hr {
@@ -150,8 +156,14 @@ hr {
 .sm-link:hover {
     text-decoration: none;
 }
-
 /*** Bootstrap extensions ***/
 .bg-dark-grey{
     background-color: #888;
 }
+
+@media (min-width: 769px) {
+    #content.pull-top {
+        margin-top: -57px;
+    }
+}
+
