@@ -123,6 +123,12 @@ a:hover {
     margin-bottom: 20px;
 }
 
+.stack {
+    margin-top: 40px;
+    font-size: 14px;
+    font-style: italic;
+}
+
 /*** Skills ***/
 .progress {
     height: 12px;
