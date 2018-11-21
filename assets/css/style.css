@@ -173,3 +173,9 @@ a:hover {
     }
 }
 
+@media (max-device-width: 480px){
+    #name{
+        font-size: 3em;
+    }
+}
+
