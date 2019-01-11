@@ -1,7 +1,7 @@
 # Résumé
 My very own personal website. Basically, this is just a résumé.
 
-You can view this site at <https://maschinoff.com>.
+You can view this site at <https://maschinoff.com>
  
 I created this project for the online up to date resume.
 
