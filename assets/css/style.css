@@ -14,7 +14,8 @@ hr {
 
 a {
     text-decoration: none;
-    color: #666;
+    /*color: #666;*/
+    color: #000;
     transition: all 0.5s ease;
 }
 
@@ -123,10 +124,17 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.stack {
+.mt-40{
     margin-top: 40px;
+}
+
+.stack {
     font-size: 14px;
     font-style: italic;
+}
+
+.stack--small{
+    font-size: 11px;
 }
 
 /*** Skills ***/
