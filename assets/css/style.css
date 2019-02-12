@@ -100,6 +100,11 @@ a:hover {
     font-size: 14px;
 }
 
+.event-description a{
+    font-weight: 500;
+    font-style: italic;
+}
+
 .content-section-sub-header {
     font-size: 14px;
     text-transform: capitalize;
