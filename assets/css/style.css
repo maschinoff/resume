@@ -14,12 +14,14 @@ hr {
 
 a {
     text-decoration: none;
-    color: #666;
+    /*color: #666;*/
+    color: #000;
     transition: all 0.5s ease;
 }
 
 a:hover {
     text-decoration: none;
+    color: green;
 }
 
 /*** Header ***/
@@ -99,6 +101,11 @@ a:hover {
     font-size: 14px;
 }
 
+.event-description a{
+    font-weight: 500;
+    font-style: italic;
+}
+
 .content-section-sub-header {
     font-size: 14px;
     text-transform: capitalize;
@@ -123,9 +130,17 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.stack {
+.mt-40{
     margin-top: 40px;
+}
+
+.stack {
     font-size: 14px;
+    font-style: italic;
+}
+
+.stack--small{
+    font-size: 11px;
     font-style: italic;
 }
 
@@ -167,7 +182,7 @@ a:hover {
     background-color: #888;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1025px) {
     #content.pull-top {
         margin-top: -57px;
     }
@@ -176,6 +191,7 @@ a:hover {
 @media (max-device-width: 568px){
     #name{
         font-size: 3em;
+        margin-top: 0;
     }
 }
 
