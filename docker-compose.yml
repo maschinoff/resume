@@ -1,0 +1,11 @@
+version: '3'
+services:
+  resume:
+    container_name: maschinoff
+    image: zeppit/webpack-dev
+    ports:
+      - "3000:3000"
+    command: "yarn start"
+    volumes:
+      - ./:/app
+      - /app/node_modules
